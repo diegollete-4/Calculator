@@ -1,0 +1,32 @@
+body{
+    background-color: cornflowerblue;
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(144, 200, 237);
+    
+}
+
+button{
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+#potencia{
+    width: 102.9px;
+}
+
+#raiz{
+    width: 100px;
+}
+
+#abs{
+    width: 111px;
+}
+
+#borrar{
+    color: white;
+    background-color: red;
+}

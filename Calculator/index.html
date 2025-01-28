@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <title>Calculadora</title>
+    <script src="funcionamiento.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <h1>CALCULATOR</h1>
+    <br><br>
+        <center>
+            <input type="number" id="numero1">
+            <input type="number" id="numero2"><br><br>
+        </center>
+
+            <center>
+                <button onclick="suma()" id="sumar">+</button>
+                <button onclick="resta()" id="restar">-</button>
+                <button onclick="mult()" id="mult">x</button>
+                <button onclick="dividir()" id="dividir">/</button><br>
+                <button onclick="potencia()" id="potencia">Exponent</button>
+                <button onclick="raiz()" id="raiz">Root</button><br>
+                <button onclick="abs()" id="abs">Absolute</button>
+                <button onclick="random()" id="random">Random</button>
+                
+            </center>
+     
+        <br>
+
+        <h2 align="center">RESULT:</h2>
+        <center>
+            <input align="center" id="textoResultado">
+        </center>
+        <br>
+
+
+            <center>
+                <button onclick="redondear()" id="round">Round</button>
+                <button onclick="piso()" id="floor">Floor</button>
+                <button onclick="techo()" id="ceil">Ceil</button><br><br>
+                <button onclick="borrar()" id="borrar">ERASE</button>
+            </center>
+
+        
+
+</body>
+
+</html>
